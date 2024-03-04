@@ -1,0 +1,38 @@
+
+import datetime #La misma libreria de toda la vida
+
+ya = datetime.datetime.now() #ps dice k es ahora xd
+
+print(ya.strftime("Dia abreviado: %a "))
+print(ya.strftime("Lo mismo de arriba pero completo xd: %A "))
+print(ya.strftime("Mes Abreviado: %b "))
+print(ya.strftime("Mes abreviado?, creo que aqui se confundieron xd: %B "))
+print(ya.strftime("Fecha completa: %c "))
+print(ya.strftime("Siglo (pa que quiero saber eso w?): %C "))
+print(ya.strftime("Dia del mes (solo del mes): %d "))
+print(ya.strftime("Fecha en Dia/Mes/Año: %D "))
+print(ya.strftime("Otravez el dia del mes?: %e "))
+print(ya.strftime("Ultimos dos valores del año: %g "))
+print(ya.strftime("Año entero (como debe de ser: %G "))
+print(ya.strftime("Mes abreviado: %h "))
+print(ya.strftime("Hora (de 24 hrs): %H "))
+print(ya.strftime("Hora (de 12 hrs): %I "))
+print(ya.strftime("Dia del año (pq?): %j "))
+print(ya.strftime("Numero del mes: %m "))
+print(ya.strftime("Minuto: %M "))
+print(ya.strftime("Salto de línea (no entendi k hace este xd): %n")) #Aaaaaa, neta todo ese rollo por literalmente un salto de linea? xd kpdo
+print(ya.strftime("AM o PM (?): %p "))
+print(ya.strftime("Hora + AM o PM (lo mismo de mas arriba pero op): %r"))
+print(ya.strftime("Hora y minutos (precision xd): %R"))
+print(ya.strftime("Segundos (precision plus): %S"))
+print(ya.strftime("Tabulacion (Kbuenas estan las rolas del Lethal Company xd): %t"))
+print(ya.strftime("Hora, minutos y segundos (Paquete completo): %T"))
+print(ya.strftime("Día de la semana (K weba saber el dia de la semana como numero): %u"))
+print(ya.strftime("Semana del año (nomanches pq?): %U"))
+print(ya.strftime("Semana del año(Esta cosa tiene un monton de funciones bien inutiles): %V"))
+print(ya.strftime("Semana del año (Como pa k me sirve todo esto?): %W"))
+print(ya.strftime("Día de la semana (Nomas dame la hora y ya): %w"))
+print(ya.strftime("Día/mes/año de dos dígitos (solo quiero la hora we): %x"))
+print(ya.strftime("Hora/minutos/segundos (librerias todas feas): %X"))
+print(ya.strftime("Año corto (ya no kiero programar): %y"))
+print(ya.strftime("Año largo (la fecha esta chida y todo pero ps): %Y"))
